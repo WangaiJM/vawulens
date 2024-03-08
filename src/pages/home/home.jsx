@@ -1,7 +1,14 @@
-import React from "react";
+import Header from "../../components/MainHeader";
+import Programs from "../../components/Programs";
+import "./home.css";
 
 const home = () => {
-  return <div>React Website</div>;
+  return (
+    <>
+      <Header />
+      <Programs />
+    </>
+  );
 };
 
 export default home;
